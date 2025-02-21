@@ -27,6 +27,7 @@
     font-weight: 500;
     background-color: rgb(147, 96, 242);
     border-radius: 4px;
+    cursor: pointer;
 }
 .header ul{
     display: flex;
@@ -34,6 +35,7 @@
     margin-right: 3%;
 }
 ul li{
+    cursor: pointer;
     background-color: rgb(147, 96, 242);
     font-size: 23px;
     padding: 4px;
@@ -99,7 +101,12 @@ ul li{
     background-color: rgb(145, 77, 127);
     height: 120px;
     width: 120px;
+    text-align: center;
+}
 
+.box:hover{
+    background-color: blueviolet;
+    scale: 1.1;
 }
 
 .features{
@@ -109,7 +116,7 @@ ul li{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 7px 0px 13px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -117,6 +124,7 @@ ul li{
     display: grid;
     gap: 8px;
     margin-left: 3%;
+    cursor: pointer;
 }
 
 .heading .heading1{
